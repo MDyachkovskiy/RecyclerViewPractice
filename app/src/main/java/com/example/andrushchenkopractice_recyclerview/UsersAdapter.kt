@@ -65,9 +65,7 @@ class UsersAdapter (
         popupMenu.show()
     }
 
-    class UsersViewHolder (
-        val binding: ItemUserBinding
-        ) : RecyclerView.ViewHolder(binding.root)
+    class UsersViewHolder (val binding: ItemUserBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UsersViewHolder {
         val inflater = LayoutInflater.from(parent.context)

@@ -3,4 +3,7 @@
     <string name="move_up">Move_up</string>
     <string name="move_down">Move down</string>
     <string name="remove">Remove</string>
+    <string name="failed_to_load_users">Ошибка загрузки данных</string>
+    <string name="try_again">Повторите попытку</string>
+    <string name="user_has_been_deleted">Пользователь был удален</string>
 </resources>
